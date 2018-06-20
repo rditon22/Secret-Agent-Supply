@@ -38,9 +38,30 @@
           <li><a href="#">Classes</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <ul class="mobile-nav container">
-          <li><a href="#">Menu</a></li>
-        </ul>
+        <div class="dropdown container">
+          <!-- <ul> -->
+            <!-- <li onclick="myFunction()" class="drop"><a href="#">Menu</a></li> -->
+          <!-- </ul> -->
+          <button onclick="myFunction()" class="dropbtn">Menu</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Eyewear</a>
+            <a href="#">Apparel</a>
+            <a href="#">Gadgets</a>
+            <a href="#">Vehicles</a>
+            <a href="#">Classes</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+  <!--     <div class="dropdown">
+         <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+       </div> -->
+
       </nav>
 
       <!--Products and Company Infos Section-->
@@ -92,6 +113,6 @@
         </div>
       </footer>
 
-
+    <script src="test.js"></script>
   </body>
 </html>
