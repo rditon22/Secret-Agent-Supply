@@ -180,6 +180,7 @@ a:hover {
 .company-info {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .info {
